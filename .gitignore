@@ -5,3 +5,10 @@
 AppIcon.iconset/
 __pycache__/
 *.pyc
+
+# Xcode user-specific files
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+DerivedData/
