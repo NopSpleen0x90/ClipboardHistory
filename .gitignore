@@ -1,0 +1,7 @@
+.DS_Store
+.build/
+*.dmg
+*.app
+AppIcon.iconset/
+__pycache__/
+*.pyc

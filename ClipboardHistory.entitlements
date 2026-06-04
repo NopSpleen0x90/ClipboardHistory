@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Sandbox obbligatoria per Mac App Store -->
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+
+    <!--
+        Necessario per CGEventPost (simula ⌘V nell'app di destinazione).
+        Richiede che l'utente abbia concesso il permesso Accessibilità
+        in Impostazioni → Privacy e sicurezza → Accessibilità.
+    -->
+    <key>com.apple.security.temporary-exception.accessibility</key>
+    <true/>
+</dict>
+</plist>
